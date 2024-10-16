@@ -85,6 +85,8 @@ document.querySelector('.js-products-grid')
           });
         }
 
+        console.log(quantity);
+
         let cartQuantity = 0;
 
         cart.forEach((item) => {
