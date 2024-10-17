@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js';
+
 let productsHTML = '';
 
 products.forEach((product) => {
@@ -86,8 +88,6 @@ document.querySelector('.js-products-grid')
             quantity
           });
         }
-
-        console.log(quantity);
 
         let cartQuantity = 0;
 
